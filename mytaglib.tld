@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>My Custom Tag</short-name>
+	
+	
+	<tag>
+		<name>View</name>
+		<tag-class>ca.sheridancollege.customtags.View</tag-class>
+		<body-content>empty</body-content>
+		
+		<attribute>
+			<name>list</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>ViewGroup</name>
+		<tag-class>ca.sheridancollege.customtags.ViewGroup</tag-class>
+		<body-content>empty</body-content>
+		
+		<attribute>
+			<name>list</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	
+
+</taglib>
